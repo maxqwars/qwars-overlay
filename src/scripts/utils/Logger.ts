@@ -1,5 +1,13 @@
-export default class Logger {
-    public static log(message: any) {
-        console.log('WEB_EXTENSION:', message)
-    }
+class Logger {
+  private __PREFIX: string;
+
+  constructor(prefix = "USR_WEB_EXTENSION") {
+    this.__PREFIX = prefix;
+  }
+
+  log(value: any) {
+    console.log(this.__PREFIX, value);
+  }
 }
+
+export default Logger;

@@ -1,7 +1,18 @@
 {
   "name": "QWARS! Overlay (VK)",
-  "description": "Improves message encryption in VK",
+  "description": "An additional layer of encryption for your VK messages. Uses an asymmetric RSA encryption algorithm using a public and private key.",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["storage", "background"]
+  "permissions": ["storage", "background"],
+  "content_scripts": [
+    {
+      "matches": ["*://vk.com/*"],
+      "js": ["user.js"]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
 }

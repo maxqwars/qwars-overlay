@@ -4,7 +4,8 @@ Improves message encryption in VK
 
 ## Summary:
 
-`QWARS-OVERLAY` is a browser extension that adds support for encrypting messages between VK users
+`QWARS-OVERLAY` is a browser extension that adds support for encrypting messages between VK users.
+An additional layer of encryption for your VK messages. Uses an asymmetric RSA encryption algorithm using a public and private key.
 
 ## Installation:
 
