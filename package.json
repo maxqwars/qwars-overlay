@@ -1,0 +1,27 @@
+{
+  "name": "qwars-overlay",
+  "version": "1.0.0",
+  "description": "Improves message encryption in VK",
+  "main": "index.js",
+  "watch": {},
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node ./scripts/workflow.js",
+    "build": "cross-env NODE_ENV=production node ./scripts/workflow.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxqwars/qwars-overlay.git"
+  },
+  "author": "Maxim Maximenko <maxqwars@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxqwars/qwars-overlay/issues"
+  },
+  "homepage": "https://github.com/maxqwars/qwars-overlay#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.14.36",
+    "npm-watch": "^0.11.0",
+    "shelljs": "^0.8.5"
+  }
+}

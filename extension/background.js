@@ -1,0 +1,3 @@
+(() => {
+})();
+//# sourceMappingURL=background.js.map

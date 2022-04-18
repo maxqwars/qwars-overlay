@@ -1,0 +1,7 @@
+{
+  "name": "QWARS! Overlay (VK)",
+  "description": "Improves message encryption in VK",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "background"]
+}
