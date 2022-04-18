@@ -1,3 +1,4 @@
+/* Import modules */
 const shell = require("shelljs");
 const path = require("path");
 const esbuild = require("esbuild");

@@ -1,4 +1,4 @@
-class Logger {
+export class Logger {
   private __PREFIX: string;
 
   constructor(prefix = "USR_WEB_EXTENSION") {
@@ -9,5 +9,3 @@ class Logger {
     console.log(this.__PREFIX, value);
   }
 }
-
-export default Logger;

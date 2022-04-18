@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "Improves message encryption in VK",
   "main": "index.js",
-  "watch": {},
+  "watch": {
+    "dev": {
+      "extensions": "ts",
+      "patterns": [
+        "src"
+      ]
+    }
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development node ./scripts/workflow.js",
-    "build": "cross-env NODE_ENV=production node ./scripts/workflow.js"
+    "build": "cross-env NODE_ENV=production node ./scripts/workflow.js",
+    "watch": "npm-watch"
   },
   "repository": {
     "type": "git",
